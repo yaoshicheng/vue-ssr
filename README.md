@@ -1,3 +1,7 @@
 # Routes transitions with Nuxt.js
 
-https://nuxtjs.org/examples/routes-transitions
+基于vue的Nuxt.js,实现服务端渲染
+
+npm install
+
+npm run dev
