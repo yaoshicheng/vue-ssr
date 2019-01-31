@@ -1,0 +1,117 @@
+.hot-news{
+  padding-top: 130px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  .about-us{
+    height: 146px;
+    width: 100%;
+    position: relative;
+    background-color: rgb(102,107,108);
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-weight: bold;
+    color: #fff;
+    opacity: 0.95;
+    .ch-text{
+      font-size: 40px;
+      text-align: left;
+      margin-left: 5%;
+      padding-top: 23px;
+    }
+    .zh-text{
+      font-size: 28px;
+      text-align: left;
+      margin-top: -10px;
+      margin-left: 5%;
+    }
+    .title{
+      font-size: 14px;
+      position: absolute;
+      right: 130px;
+      bottom: 45px;
+      .blue-text{
+        color: #0097d5;
+      }
+    }
+
+
+
+
+
+
+    .index-page{
+      .carousel img{
+      }
+      .territory{
+        padding:140px 180px;
+      }
+    }
+  }
+  .articleList{
+    text-align: left;
+    padding: 50px 0;
+    border-bottom: 1px solid #e7e7e7;
+    .articleImg{
+      img{
+        height: 100%;
+        width: 90%;
+      }
+    }
+    .articleContent{
+       margin-left: 20px;
+      h2{
+        padding-top: 30px;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap
+      }
+      div{
+        margin-top: 15px;
+        height: 95px;
+        font-size: 16px;
+        line-height: 25px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        overflow: hidden;
+        color:rgb(128,128,128);
+      }
+      a{
+        padding: 12px 16px;
+        background-color: rgb(37,41,45);
+        color: #fff;
+        display: inline-block;
+        margin-top: 20px;
+        border-radius: 20px;
+      }
+      a:hover{
+        background-color: rgba(37,41,45,.7);
+      }
+    }
+  }
+  .pages{
+    padding: 100px 0;
+    .ivu-page-item-active {
+      background-color: #25292e;
+      border-color: #25292e;
+    }
+    .ivu-page-item:hover{
+      border:1px solid #25292e;
+    }
+    .ivu-page-prev:hover{
+      border:1px solid #25292e;
+    }
+    .ivu-page-next:hover{
+      border:1px solid #25292e;
+    }
+  }
+  .noData{
+    font-size: 1.5rem;
+    margin: 250px 0;
+  }
+}
+

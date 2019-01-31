@@ -1,0 +1,101 @@
+.product-advantages{
+  min-height:500px;
+  .idea-title{
+    height: 146px;
+    width: 100%;
+    position: relative;
+    background-image: url(../../img/title-bg.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-weight: bold;
+    color: #fff;
+    opacity: 0.95;
+    .ch-text{
+      font-size: 40px;
+      text-align: left;
+      margin-left: 5%;
+      padding-top: 23px;
+    }
+    .zh-text{
+      font-size: 28px;
+      text-align: left;
+      margin-top: -10px;
+      margin-left: 5%;
+    }
+  }
+
+  .content{
+    //height:1500px;
+    margin-bottom:60px;
+    .ivu-tabs{
+      width:100%;
+      text-align: center;
+      .ivu-tabs-bar{
+        border-bottom:0;
+        margin-bottom:0;
+        margin-top:30px;
+        .ivu-tabs-nav-scrollable{
+          //padding:0;
+        }
+        .ivu-tabs-ink-bar{
+          height:0;
+        }
+        .ivu-tabs-tab{
+          padding:0;
+          //margin:0;
+          font-size: 20px;
+          border:none;
+        }
+        .sanjiao{
+          width:0;
+          height:0;
+          border-left:20px solid transparent;
+          border-right:20px solid transparent;
+          border-bottom:20px solid #fff;
+          margin-top:20px;
+        }
+        .ivu-tabs-tab-active{
+          .sanjiao{
+            border-bottom: 20px solid #25292D!important;
+          }
+        }
+        .ivu-tabs-nav-prev{
+          display: none;
+        }
+        .ivu-tabs-nav-next{
+          display: none;
+        }
+      }
+      .ivu-tabs-tabpane{
+        background-color: #25292D;
+        height:100%;
+        .text{
+          color:#808080;
+          font-size: 26px;
+          transform: scale(0.8);
+          transition: all 0.4s ease-in-out;
+          padding:36px 0;
+          margin:24px;
+          border-radius: 10px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        .text:hover{
+          background-color:#3B3F43;
+          //opacity: 0.1;
+          color:#fff;
+          transform: scale(1);
+        }
+        .noData{
+          color:#808080;
+          font-size: 20px;
+          padding:36px 0;
+          margin:24px;
+        }
+
+      }
+    }
+
+  }
+}

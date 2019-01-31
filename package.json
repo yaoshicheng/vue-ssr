@@ -1,0 +1,23 @@
+{
+  "name": "example-routes-transitions",
+  "dependencies": {
+    "iview": "^3.2.2",
+    "node-sass": "^4.11.0",
+    "nuxt-edge": "latest",
+    "sass-loader": "^7.1.0",
+    "scss-loader": "0.0.1"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "post-update": "yarn upgrade --latest"
+  },
+  "devDependencies": {
+    "axios": "^0.15.3",
+    "iview-loader": "^1.2.2",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "moment": "^2.24.0"
+  }
+}

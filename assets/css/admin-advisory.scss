@@ -1,0 +1,16 @@
+.advisory{
+  text-align: center;
+  width:100%;
+  height:250px;
+  background: url("../static/img/refer-lianxi-bg.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .company{
+    margin:25px 0;
+    font-size:14px;
+    color:rgb(54,54,54);
+  }
+}

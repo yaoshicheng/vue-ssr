@@ -1,0 +1,109 @@
+.changePasword-modal {
+  width: 530px;
+  margin: auto;
+  //height:600px;
+  z-index: 9999;
+  .ivu-modal{
+    width: 100% !important;
+    margin-top: 20%!important;
+    .ivu-modal-header {
+      padding: 16px 30px;
+      .changePasword-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #ffffff;
+        font-size:14px;
+        color:#637381;
+        .changePasword-text {
+          flex: 1;
+        }
+      }
+    }
+    .ivu-modal-body{
+      padding:0;
+    }
+    .leaveMessage-form{
+      margin:15px 0;
+      .ivu-form-item-label {
+        font-size: 14px;
+        color: #454f5b;
+        text-align: right;
+        height: 40px;
+        line-height: 40px;
+        padding: 0;
+        padding-right: 16px;
+      }
+      .changePasword-input {
+        width: 340px;
+        height: 35px;
+        .ivu-input{
+          height: 35px;
+          line-height: 35px;
+        }
+      }
+      .option-input {
+        width: 340px;
+        height: 40px;
+        line-height: 40px;
+        //.ivu-input{
+        //  height: 35px;
+        //  line-height: 35px;
+        //}
+        background-color:#ddd ;
+        color:#000
+      }
+      .changePasword-textarea{
+        width: 340px;
+        textarea.ivu-input{
+          resize:none;
+          line-height: 35px;
+          height:80px;
+        }
+      }
+    }
+    .ivu-modal-confirm-footer {
+      margin-top: 20px;
+      text-align: right;
+      padding: 0 30px;
+      background: #ffffff;
+      height: 64px;
+      line-height: 64px;
+      border-top:1px solid #ddd;
+    }
+    .ivu-btn-text {
+      width: 88px;
+      height: 40px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+    .ivu-btn-primary {
+      width: 88px;
+      height: 40px;
+    }
+    .modal-footer {
+      .cancel-btn {
+        width: 88px;
+        height: 40px;
+        border: 1px solid #ddd;
+        text-align: center;
+      }
+      .save-btn {
+        width: 88px;
+        height: 40px;
+      }
+    }
+
+  }
+}
+.ivu-select-dropdown{
+  color:#000;
+  background-color: #fff!important;
+}
+.ivu-select-dropdown ul {
+  margin-top: 0px !important;
+  float: none !important;
+}
+.ivu-message{
+  top:150px!important;
+}

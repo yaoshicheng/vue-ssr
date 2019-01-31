@@ -1,0 +1,190 @@
+body {
+   scrollbar-arrow-color: red; /*三角箭头的颜色*/
+   scrollbar-face-color: red; /*立体滚动条的颜色*/
+   scrollbar-3dlight-color: red; /*立体滚动条亮边的颜色*/
+   scrollbar-highlight-color: red; /*滚动条空白部分的颜色*/
+   scrollbar-shadow-color: red; /*立体滚动条阴影的颜色*/
+   scrollbar-darkshadow-color: red; /*立体滚动条强阴影的颜色*/
+   scrollbar-track-color: red; /*立体滚动条背景颜色*/
+  scrollbar-base-color:red; /*滚动条的基本颜色*/
+  }
+.follow-us {
+  padding-top: 130px;
+  min-width: 1200px;
+  width: 100%;
+  //position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  .english{
+    //color:#0290CA;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .box-content {
+    margin-top: 30px;
+  }
+  .title{
+    font-size:32px;
+    color:#000;
+  }
+  .companyBox{
+    background: url("../static/img/block1.png");
+    background-size: 100% 100%;
+    height:100%;
+    .company{
+      width:40%;
+      height:100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      background: #040405;
+      opacity: 0.7;
+      color:#fff;
+      padding:0 6rem;
+      h1{
+        color:#fff;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .line{
+        width:63px;
+        height:3px;
+        margin:5px 0;
+        display: inline-block;
+        background-color:rgb(19,136,210);
+      }
+      .box-title{
+        width:100%;
+        height:33px;
+        font-size: 18px;
+        background: url("../static/img/yinhao.png");
+        background-size: 100% 33px;
+        position: relative;
+        padding:10px;
+        margin-top:46px;
+        span{
+          width:88%;
+          //height:50px;
+          text-align: center;
+          position: absolute;
+          left:50%;
+          top:10px;
+          transform: translate(-50%, -50%);
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+        }
+      }
+
+      .name{
+        margin-top: 10px;
+      }
+      .box-content{
+        word-wrap: break-word;
+        text-align: left;
+        width:100%;
+        resize:none;
+        border:none;
+        autofocus:none;
+        height:250px;
+        margin-top:30px;
+        background-color: transparent;
+        color: #fff;
+        font-size: 0.9rem;
+        //-webkit-scrollbar-track-color:red;
+        span{
+          display: inline-block;
+          width: 100%;
+        }
+      }
+      .box-content::-webkit-scrollbar {display:none}
+      .informationBox{
+        text-align: left;
+        max-height: 300px;
+        overflow-y: scroll;
+      }
+    }
+
+  }
+  .team{
+    padding:50px 6rem;
+    .teamIntroductionBox{
+      text-align: left;
+      font-size: 1.2rem;
+    }
+    textarea{
+      width:100%;
+      resize:none;
+      border:none;
+      autofocus:none;
+      font-size: 1.1rem;
+      height:240px;
+      margin-top:30px;
+      background-color: transparent;
+    }
+    textarea::-webkit-scrollbar {display:none}
+  }
+  .history{
+    padding:0 6rem;
+    .carouselBox{
+      margin:30px 0;
+      .ivu-carousel-arrow{
+        background-color:rgb(12,131,206)!important;
+        top:25px!important;
+        width:46px!important;
+        height: 46px!important;
+        .ivu-icon{
+          font-size: 23px;
+        }
+      }
+      .left{
+        left:0!important;
+      }
+      .right{
+        right:0!important;
+      }
+      .contentBox{
+        padding:0 10rem;
+        //margin:80px 0;
+        .content{
+          .line{
+            width:50px;
+            height:2px;
+            display: inline-block;
+            background-color:rgb(19,136,210);
+          }
+          .box-content{
+            text-align: justify;
+            padding:0 2rem;
+            word-break: break-all;
+
+          }
+        }
+      }
+      img{
+        width:100%;
+        margin:0;
+      }
+    }
+  }
+  .world{
+    position: relative;
+    .content{
+      width:100%;
+      text-align: center;
+      position: absolute;
+      top:80px;
+      color:#fff;
+      font-size: 48px;
+      opacity: 0.7;
+    }
+  }
+}
